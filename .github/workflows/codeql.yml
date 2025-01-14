@@ -64,7 +64,7 @@ jobs:
       uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
-        config-file: owner/security-team-codeql-config/codeql/codeql-config.yml
+        config-file: bellpoc/security-team-codeql-config/codeql/codeql-config.yml
         external-repository-token: ${{ secrets.ACCESS_TOKEN }}
         #config: |
         #  paths-ignore:
